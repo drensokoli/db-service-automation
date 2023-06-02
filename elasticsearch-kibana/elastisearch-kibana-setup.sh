@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Install Java
@@ -31,16 +32,16 @@ sudo apt install elasticsearch
 echo
 echo -e "\033[32mConfiguring Elasticsearch\033[0m"
 echo
-sudo sed -i 's/cluster.name:/d' /etc/elasticsearch/elasticsearch.yml
-sudo sed -i 's/network.host:/d' /etc/elasticsearch/elasticsearch.yml
-sudo sed -i '/xpack.security.enabled/,/# Additional nodes can still join the cluster later/d' /etc/elasticsearch/elasticsearch.yml 
+sed -i '/xpack.security.enabled/,$d' /etc/elasticsearch/elasticsearch.yml 
+
+host=$(hostname)
 
 cat > /etc/elasticsearch/elasticsearch.yml << EOL
 xpack.security.enabled: false
 
 xpack.security.enrollment.enabled: false
 
-# Enable encryption for HTTP API client connections, such as Kibana, Logstash, and Agents
+# Enable encryption for HTTP API client connections, such as Kibana, Logstash, and A
 xpack.security.http.ssl:
   enabled: false
   keystore.path: certs/http.p12
@@ -53,7 +54,17 @@ xpack.security.transport.ssl:
   truststore.path: certs/transport.p12
 # Create a new cluster with the current node only
 # Additional nodes can still join the cluster later
+cluster.initial_master_nodes: ["${host}"]
 
+# Allow HTTP API connections from anywhere
+# Connections are encrypted and require user authentication
+http.host: 0.0.0.0
+
+# Allow other nodes to join the cluster from anywhere
+# Connections are encrypted and mutually authenticated
+#transport.host: 0.0.0.0
+
+#----------------------- END SECURITY AUTO CONFIGURATION -------------------------
 cluster.name: my_cluster
 network.host: 0.0.0.0
 EOL
@@ -94,8 +105,3 @@ echo
 sudo systemctl daemon-reload
 sudo systemctl start kibana
 sudo systemctl enable kibana
-
-echo
-echo -e "\033[32mTHE ELASTICSEARCH AND KIBANA SERVICES HAVE BEEN CONFIGURED TO NOT USE AUTHENTICATION\033[0m"
-echo
-

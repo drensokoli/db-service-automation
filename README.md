@@ -12,7 +12,7 @@ To use this project, you need to have a Ubuntu system with `curl` and `sudo` ins
 
 ## Where to get help?
 
-If you encounter any issues or have any questions about this project, you can open an issue on this repository or contact me at my-email@example.com.
+If you encounter any issues or have any questions about this project, you can open an issue on this repository or contact me at drensokoli@gmail.com.
 
 ## Who maintains and contributes to this project?
 

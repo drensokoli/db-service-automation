@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-unit-testing-configmap
+  labels:
+    app: postgres-unit-testing
+data:
+  POSTGRES_DB: codex_jobs
+  POSTGRES_USER: codex-admin
+  POSTGRES_PASSWORD: <PASSWORD>

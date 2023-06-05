@@ -1,0 +1,30 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres-unit-testing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgres-unit-testing
+  template:
+    metadata:
+      labels:
+        app: postgres-unit-testing
+    spec:
+      containers:
+        - name: postgres-unit-testing
+          image: postgres:11
+          ports:
+            - containerPort: 5432
+          envFrom:
+            - configMapRef:
+                name: postgres-unit-testing-secret
+          volumeMounts:
+            - mountPath: /var/lib/postgres/data
+              name: db-data
+      volumes:
+        - name: db-data
+          persistentVolumeClaim:
+            claimName: postgres-unit-testing-pvc

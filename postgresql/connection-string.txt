@@ -1,0 +1,34 @@
+HOST: 141.94.74.199
+PORT: 32023
+DATABASE: codex_jobs
+USER: codex-admin
+PASSWORD: Afroroz6c1At4ljodR3
+Connection string: Server=141.94.74.199;Port=32023;Database=codex_jobs;User Id=codex-admin;Password=Afroroz6c1At4ljodR3
+===================================================
+HOST: 141.94.74.199
+PORT: 32023
+DATABASE: codex_jobs
+USER: codex-admin
+PASSWORD: Afroroz6c1At4ljodR3
+Connection string: Server=141.94.74.199;Port=32023;Database=codex_jobs;User Id=codex-admin;Password=Afroroz6c1At4ljodR3
+===================================================
+HOST: 141.94.74.199
+PORT: 32023
+DATABASE: codex_jobs
+USER: codex-admin
+PASSWORD: Afroroz6c1At4ljodR3
+Connection string: Server=141.94.74.199;Port=32023;Database=codex_jobs;User Id=codex-admin;Password=Afroroz6c1At4ljodR3
+===================================================
+HOST: 141.94.74.199
+PORT: 32192
+DATABASE: codex_jobs
+USER: codex-admin
+PASSWORD: ADQBfyXMpyM=
+Connection string: Server=141.94.74.199;Port=32192;Database=codex_jobs;User Id=codex-admin;Password=ADQBfyXMpyM=
+===================================================
+HOST: 141.94.74.199
+PORT: 30780
+DATABASE: codex_jobs
+USER: codex-admin
+PASSWORD: testest
+Connection string: Server=141.94.74.199;Port=30780;Database=codex_jobs;User Id=codex-admin;Password=testest

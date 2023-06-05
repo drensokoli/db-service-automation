@@ -36,7 +36,7 @@ sed -i '/xpack.security.enabled/,$d' /etc/elasticsearch/elasticsearch.yml
 
 host=$(hostname)
 
-cat > /etc/elasticsearch/elasticsearch.yml << EOL
+cat >> /etc/elasticsearch/elasticsearch.yml << EOL
 xpack.security.enabled: false
 
 xpack.security.enrollment.enabled: false
@@ -88,15 +88,15 @@ sudo apt install kibana
 IP=$(curl ifconfig.me)
 
 # Configure Kibana
-echo
-echo -e "\033[32mConfiguring Kibana\033[0m"
-echo
+#echo
+#echo -e "\033[32mConfiguring Kibana\033[0m"
+#echo
 
-sudo sed -i 's/server.host:/d' /etc/kibana/kibana.yml
-sudo sed -i 's/elasticsearch.hosts:/d' /etc/kibana/kibana.yml
+#sudo sed -i 's/server.host:/d' /etc/kibana/kibana.yml
+#sudo sed -i 's/elasticsearch.hosts:/d' /etc/kibana/kibana.yml
 
-echo "server.host: 0.0.0.0" >> /etc/kibana/kibana.yml
-echo "elasticsearch.hosts: ['http://${IP}:9200']" >> /etc/kibana/kibana.yml 
+#echo "server.host: 0.0.0.0" >> /etc/kibana/kibana.yml
+#echo "elasticsearch.hosts: ['http://${IP}:9200']" >> /etc/kibana/kibana.yml 
 
 # Start and enable the Kibana service
 echo

@@ -14,6 +14,25 @@ To use this project, you need to have a Ubuntu system with `curl` and `sudo` ins
 
 If you encounter any issues or have any questions about this project, you can open an issue on this repository or contact me at drensokoli@gmail.com.
 
-## Who maintains and contributes to this project?
+## Contributors
 
-This project is maintained by me, user B. I welcome any feedback, suggestions or contributions from other users. If you want to contribute to this project, please read the `CONTRIBUTING.md` file for guidelines.
+<table>
+
+  <tr>
+    <td align="center">
+      <img src="https://lh3.googleusercontent.com/a/AAcHTtdajMyHRDlLlen1AWkWzLWtOQ8AHOXi0vZBPvAL" width="140px;" alt=""/>
+      <br />
+      <sub><b>Dren Sokoli</b></sub>
+      <br />
+      <a href="https://www.linkedin.com/in/drensokoli/"> <img src="readme_assets/linkedin.png" height="20"></img>
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://lh3.googleusercontent.com/a-/AD_cMMSpchbYEYWIPEFu4h69UIwwA4AiwwPw2Il3JE5W" width="140px;" alt=""/>
+      <br />
+      <sub><b>Ylber Gashi</b></sub>
+      <br />
+      <a href="https://github.com/ylber-gashi"><img src="readme_assets/linkedin.png" height="20"></a>
+    </td>
+  </tr>
+</table>

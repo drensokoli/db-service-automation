@@ -24,7 +24,7 @@ If you encounter any issues or have any questions about this project, you can op
       <br />
       <sub><b>Dren Sokoli</b></sub>
       <br />
-      <a href="https://www.linkedin.com/in/drensokoli/"> <img src="readme_assets/linkedin.png" height="20"></img>
+      <a href="https://www.linkedin.com/in/drensokoli/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></img>
       </a>
     </td>
     <td align="center">
@@ -32,7 +32,7 @@ If you encounter any issues or have any questions about this project, you can op
       <br />
       <sub><b>Ylber Gashi</b></sub>
       <br />
-      <a href="https://github.com/ylber-gashi"><img src="readme_assets/linkedin.png" height="20"></a>
+      <a href="https://github.com/ylber-gashi"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></a>
     </td>
   </tr>
 </table>

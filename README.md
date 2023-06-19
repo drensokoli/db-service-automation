@@ -1,6 +1,6 @@
 # DB Services Installer
 
-This repository contains shell scripts that install different database services in Ubuntu, such as Pulsar, Kafka, MongoDB, Redis Server and more.
+This repository contains shell scripts that install different database services in Ubuntu, such as Pulsar, Kafka, MongoDB, Redis Server, Elasticsearch and more.
 
 ## Why this project?
 

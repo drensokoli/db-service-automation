@@ -20,7 +20,8 @@ To use this project, you need to have a Ubuntu system with `curl` and `sudo` ins
       <br />
       <sub><b>Dren Sokoli</b></sub>
       <br />
-      <a href="https://www.linkedin.com/in/drensokoli/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></img>
+      <a href="https://www.linkedin.com/in/dren-sokoli-0003a81a1/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></img>
+      <a href="https://github.com/drensokoli"> <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" height="20"></img>
       </a>
     </td>
     <td align="center">
@@ -28,7 +29,8 @@ To use this project, you need to have a Ubuntu system with `curl` and `sudo` ins
       <br />
       <sub><b>Ylber Gashi</b></sub>
       <br />
-      <a href="https://github.com/ylber-gashi"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></a>
+      <a href="https://www.linkedin.com/in/ylber-gashi/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></a>
+      <a href="https://github.com/ylber-gashi"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" height="20"></a>
     </td>
   </tr>
 </table>

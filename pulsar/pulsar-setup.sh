@@ -22,9 +22,33 @@ echo
 sudo sed -i '/-XX:+UseZGC/d' ~/Downloads/apache-pulsar-2.11.1/conf/pulsar_env.sh
 echo "PULSAR_GC=${PULSAR_GC:-"-XX:+PerfDisableSharedMem -XX:+AlwaysPreTouch"}" >> ~/Downloads/apache-pulsar-2.11.1/conf/pulsar_env.sh
 
-# Start Apache Pulsar
+echo "Create /etc/systemd/system/pulsar.service file to start as a service"
+
+sudo cat >> /etc/systemd/system/pulsar.service << EOL
+[Unit]
+Description=Apache Pulsar
+After=network.target
+
+[Service]
+ExecStart=/root/Downloads/apache-pulsar-2.11.1/bin/pulsar standalone
+# ExecStart=/bin/sh -c '/root/pulsar/apache-pulsar-2.10.4/bin/pulsar standalone > /root/pulsar/apache-pulsar-2.10.4/pu>
+WorkingDirectory=/root/Downloads/apache-pulsar-2.11.1/
+User=root
+RestartSec=10s
+Restart=on-failure
+# Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+EOL
+
 echo
-echo -e "\033[32mTo start Apache Pulsar run:\033[0m"
+echo "Starting pulsar.service"
 echo
-echo "sudo ~/Downloads/apache-pulsar-2.11.1/bin/pulsar standalone"
+sudo systemctl daemon-reload
+sudo systemctl start pulsar.service
+echo
+echo "Check pulsar service:"
+echo "sudo systemctl start pulsar.service"
 echo

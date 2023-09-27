@@ -5,6 +5,6 @@ metadata:
   labels:
     app: postgres-unit-testing
 data:
-  POSTGRES_DB: codex_jobs
-  POSTGRES_USER: codex-admin
+  POSTGRES_DB: <DB>
+  POSTGRES_USER: <USER>
   POSTGRES_PASSWORD: <PASSWORD>

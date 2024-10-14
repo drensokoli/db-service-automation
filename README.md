@@ -16,11 +16,11 @@ To use this project, you need to have a Ubuntu system with `curl` and `sudo` ins
 
   <tr>
     <td align="center">
-      <img src="https://lh3.googleusercontent.com/a/AAcHTtdajMyHRDlLlen1AWkWzLWtOQ8AHOXi0vZBPvAL" width="140px;" alt=""/>
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQFfZZ-n-PbXIg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727170151258?e=1734566400&v=beta&t=tp3fvXMPozyYeDUxLOojRls8ThEMZtFkkJA-ZeBidM0" width="140px;" alt=""/>
       <br />
       <sub><b>Dren Sokoli</b></sub>
       <br />
-      <a href="https://www.linkedin.com/in/dren-sokoli-0003a81a1/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></img>
+      <a href="https://www.linkedin.com/in/drensokoli/"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" height="20"></img>
       <a href="https://github.com/drensokoli"> <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" height="20"></img>
       </a>
     </td>
